@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-transition{
+    @apply transition-colors duration-300 hover:text-yellow-400;
+}
+
+@media (max-width:700px) {
+    html{
+        font-size:50%;
+    }
+}
+@media (max-width:700px) {
+    html{
+        font-size:40%;
+    }
+}
+@media (max-width:700px) {
+    html{
+        font-size:30%;
+    }
+}
